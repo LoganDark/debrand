@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"id": "${mod_id}",
+	"version": "${mod_version}",
+	"name": "${mod_name}",
+	"description": "${mod_description}",
+	"authors": ["LoganDark"],
+	"contact": {},
+	"license": "ARR",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["TEMPLATE_PACKAGE.TEMPLATE_CLASSNAME"]
+	},
+	"mixins": ["TEMPLATE_MODID.mixins.json"],
+	"depends": {}
+}
