@@ -1,4 +1,4 @@
-version:1968
+version:1976
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -53,6 +53,7 @@ attackIndicator:1
 narrator:0
 tutorialStep:none
 mouseWheelSensitivity:1.0
+rawMouseInput:true
 glDebugVerbosity:1
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
