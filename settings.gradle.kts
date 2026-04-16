@@ -23,6 +23,6 @@ pluginManagement {
 	}
 
 	plugins {
-		id("fabric-loom") version loom_version
+		id("net.fabricmc.fabric-loom") version loom_version
 	}
 }
