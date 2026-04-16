@@ -1,4 +1,4 @@
-version:3105
+version:3117
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -75,7 +75,7 @@ hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:false
 allowServerListing:true
-chatPreview:true
+chatPreview:1
 onlyShowSecureChat:false
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
