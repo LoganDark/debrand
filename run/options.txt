@@ -1,4 +1,4 @@
-version:3839
+version:3953
 ao:true
 biomeBlendRadius:7
 enableVsync:false
@@ -86,7 +86,7 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-menuBackgroundBlurriness:1.0
+menuBackgroundBlurriness:10
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
 key_key.forward:key.keyboard.w
