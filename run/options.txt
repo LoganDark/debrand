@@ -1,4 +1,4 @@
-version:3578
+version:3698
 autoJump:false
 operatorItemsTab:true
 autoSuggestions:true
@@ -21,6 +21,7 @@ toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
+hideSplashTexts:true
 mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
