@@ -1,4 +1,4 @@
-version:4886
+version:4887
 ao:true
 biomeBlendRadius:7
 chunkSectionFadeInTime:0.0
@@ -105,7 +105,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:10
-startedCleanly:false
+startedCleanly:true
 musicToast:"pause"
 musicFrequency:"DEFAULT"
 key_key.attack:key.mouse.left
