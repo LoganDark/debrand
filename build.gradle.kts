@@ -30,12 +30,11 @@ buildscript {
 }
 
 plugins {
-	id("fabric-loom")
+	id("net.fabricmc.fabric-loom")
 	`maven-publish`
 }
 
 val minecraft_version: String by project
-val yarn_mappings: String by project
 val loader_version: String by project
 val mod_dependencies: String by project
 val fabric_api_version: String by project
@@ -54,11 +53,9 @@ val mod_description: String by project
 fun parseModuleList(value: String): List<String> =
 	value.split(",").map { it.trim() }.filter { it.isNotEmpty() }
 
-val useLegacyFabric = fabric_api_version.contains(Regex("""^0\.[012]\."""))
 val fabricApiModuleList = parseModuleList(fabric_api_modules)
-val fabricDependencyList = if (!useLegacyFabric) fabricApiModuleList else listOf("fabric")
 val modDependencyList = parseModuleList(mod_dependencies)
-val addedDepends = fabricDependencyList + modDependencyList
+val addedDepends = fabricApiModuleList + modDependencyList
 
 val mod_full_package = "${mod_group}.${mod_package}"
 val mod_full_version = "${mod_version}+${minecraft_version}"
@@ -274,15 +271,10 @@ val testmodSourceSet = sourceSets.create("testmod") {
 
 dependencies {
 	minecraft("com.mojang:minecraft:${minecraft_version}")
-	mappings("net.fabricmc:yarn:${yarn_mappings}")
-	modImplementation("net.fabricmc:fabric-loader:${loader_version}")
+	implementation("net.fabricmc:fabric-loader:${loader_version}")
 
-	if (useLegacyFabric) {
-		modImplementation("net.fabricmc:fabric:${fabric_api_version}")
-	} else {
-		for (module in fabricApiModuleList) {
-			modImplementation(fabricApi.module(module, fabric_api_version))
-		}
+	for (module in fabricApiModuleList) {
+		implementation(fabricApi.module(module, fabric_api_version))
 	}
 }
 

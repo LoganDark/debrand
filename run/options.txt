@@ -1,4 +1,4 @@
-version:4671
+version:4786
 ao:true
 biomeBlendRadius:7
 chunkSectionFadeInTime:0.0
@@ -16,6 +16,7 @@ glintStrength:0.75
 graphicsPreset:"custom"
 prioritizeChunkUpdates:2
 fullscreen:false
+exclusiveFullscreen:false
 gamma:1.0
 guiScale:4
 maxAnisotropyBit:3
@@ -165,6 +166,7 @@ key_key.debug.dumpVersion:key.keyboard.v
 key_key.debug.profilingChart:key.keyboard.1
 key_key.debug.fpsCharts:key.keyboard.2
 key_key.debug.networkCharts:key.keyboard.3
+key_key.debug.lightmapTexture:key.keyboard.4
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
