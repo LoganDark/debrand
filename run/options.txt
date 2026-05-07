@@ -1,4 +1,4 @@
-version:4189
+version:4325
 ao:true
 biomeBlendRadius:7
 enableVsync:false
@@ -89,6 +89,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:10
+startedCleanly:true
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
 key_key.forward:key.keyboard.w
