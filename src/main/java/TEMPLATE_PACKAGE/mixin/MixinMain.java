@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 public class MixinMain {
 	@ModifyArgs(method = "main", at = @At(
 		value = "INVOKE",
-		target = "Lnet/minecraft/client/main/GameConfig$GameData;<init>(ZLjava/lang/String;Ljava/lang/String;ZZZZZ)V"
+		target = "Lnet/minecraft/client/main/GameConfig$GameData;<init>(ZLjava/lang/String;Ljava/lang/String;ZZZZZLnet/minecraft/client/PreferredGraphicsApi;Z)V"
 	))
 	private static void debrand$initGame(Args args) {
 		args.set(1, SharedConstants.getCurrentVersion().id()); // version
