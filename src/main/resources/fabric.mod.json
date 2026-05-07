@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "${mod_id}",
+	"version": "${mod_version}",
+	"name": "${mod_name}",
+	"description": "${mod_description}",
+	"authors": ["LoganDark"],
+	"contact": {
+		"homepage": "https://modrinth.com/project/ld-debrand",
+		"issues": "https://github.com/LoganDark/debrand/issues",
+		"sources": "https://github.com/LoganDark/debrand"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": ["TEMPLATE_MODID.mixins.json"],
+	"depends": {}
+}
