@@ -2,7 +2,12 @@
 	"required": true,
 	"package": "TEMPLATE_PACKAGE.mixin",
 	"compatibilityLevel": "JAVA_${java_target}",
-	"mixins": [],
-	"client": [],
+	"mixins": ["MixinMinecraftServer"],
+	"client": [
+		"MixinClientBrandRetriever",
+		"MixinIntegratedServer",
+		"MixinMain",
+		"MixinMinecraftClient"
+	],
 	"server": []
 }
