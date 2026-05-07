@@ -7,7 +7,6 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 
 @Mixin(IntegratedServer.class)
 public class MixinIntegratedServer {
-	// "Is Modded" section in crash report
 	@Redirect(method = "getModdedStatusMessage", at = @At(
 		value = "INVOKE",
 		target = "Ljava/lang/Class;getSigners()[Ljava/lang/Object;"
