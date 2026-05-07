@@ -12,7 +12,15 @@ public class MixinMinecraftClient {
 		value = "INVOKE",
 		target = "Ljava/lang/Class;getSigners()[Ljava/lang/Object;"
 	))
-	private static Object[] debrand$getSigners(Class<?> instance) {
+	private static Object[] debrand$getCrashReportSigners(Class<?> instance) {
+		return new Object[] {};
+	}
+
+	@Redirect(method = "isModded", at = @At(
+		value = "INVOKE",
+		target = "Ljava/lang/Class;getSigners()[Ljava/lang/Object;"
+	))
+	private static Object[] debrand$getIsModdedSigners(Class<?> instance) {
 		return new Object[] {};
 	}
 }

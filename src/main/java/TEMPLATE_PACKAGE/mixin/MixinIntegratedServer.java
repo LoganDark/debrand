@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(IntegratedServer.class)
 public class MixinIntegratedServer {
 	// "Is Modded" section in crash report
-	@Redirect(method = "method_4815", at = @At(
+	@Redirect(method = "method_24307", at = @At(
 		value = "INVOKE",
 		target = "Ljava/lang/Class;getSigners()[Ljava/lang/Object;"
 	))
