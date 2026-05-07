@@ -1,4 +1,4 @@
-version:2865
+version:2975
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -67,6 +67,7 @@ mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:true
+skipRealms32bitWarning:false
 hideMatchedNames:false
 joinedFirstServer:true
 hideBundleTutorial:true
