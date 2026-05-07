@@ -11,10 +11,10 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 public class MixinMain {
 	@ModifyArgs(method = "main", at = @At(
 		value = "INVOKE",
-		target = "Lnet/minecraft/client/RunArgs$Game;<init>(ZLjava/lang/String;Ljava/lang/String;ZZZZZ)V"
+		target = "Lnet/minecraft/client/main/GameConfig$GameData;<init>(ZLjava/lang/String;Ljava/lang/String;ZZZZZ)V"
 	))
 	private static void debrand$initGame(Args args) {
-		args.set(1, SharedConstants.getGameVersion().comp_4024()); // version
+		args.set(1, SharedConstants.getCurrentVersion().id()); // version
 		args.set(2, "release"); // versionType
 	}
 }
