@@ -1,5 +1,6 @@
-version:3120
+version:3218
 autoJump:false
+operatorItemsTab:true
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -33,7 +34,7 @@ guiScale:4
 particles:0
 maxFps:260
 graphicsMode:2
-ao:2
+ao:true
 prioritizeChunkUpdates:2
 biomeBlendRadius:7
 renderClouds:"true"
@@ -75,8 +76,9 @@ hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:false
 allowServerListing:true
-chatPreview:1
 onlyShowSecureChat:false
+panoramaScrollSpeed:1.0
+telemetryOptInExtra:false
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
 key_key.forward:key.keyboard.w
