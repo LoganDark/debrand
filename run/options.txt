@@ -1,4 +1,4 @@
-version:4890
+version:4891
 ao:true
 biomeBlendRadius:7
 chunkSectionFadeInTime:0.0
@@ -93,11 +93,14 @@ rawMouseInput:true
 allowCursorChanges:false
 glDebugVerbosity:1
 skipMultiplayerWarning:true
+skipFriendsListPromo:true
 hideMatchedNames:false
 joinedFirstServer:true
 syncChunkWrites:true
 showAutosaveIndicator:false
 allowServerListing:true
+inGameNotification:false
+sharePresence:"none"
 onlyShowSecureChat:false
 saveChatDrafts:false
 panoramaScrollSpeed:1.0
@@ -122,6 +125,7 @@ key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
+key_key.friends:key.keyboard.o
 key_key.socialInteractions:key.keyboard.p
 key_key.toggleGui:key.keyboard.f1
 key_key.toggleSpectatorShaderEffects:key.keyboard.f4
