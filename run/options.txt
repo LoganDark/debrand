@@ -1,4 +1,4 @@
-version:4893
+version:4894
 ao:true
 biomeBlendRadius:7
 chunkSectionFadeInTime:0.0
@@ -93,7 +93,6 @@ rawMouseInput:true
 allowCursorChanges:false
 glDebugVerbosity:1
 skipMultiplayerWarning:true
-skipFriendsListPromo:true
 hideMatchedNames:false
 joinedFirstServer:true
 syncChunkWrites:true
