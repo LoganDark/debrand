@@ -1,4 +1,4 @@
-version:4998
+version:4999
 ao:true
 biomeBlendRadius:7
 chunkSectionFadeInTime:0.0
@@ -170,6 +170,7 @@ key_key.debug.profilingChart:key.keyboard.1
 key_key.debug.fpsCharts:key.keyboard.2
 key_key.debug.networkCharts:key.keyboard.3
 key_key.debug.lightmapTexture:key.keyboard.4
+key_key.debug.improvedTransparency:key.keyboard.x
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
