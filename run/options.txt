@@ -1,4 +1,4 @@
-version:5004
+version:5005
 ao:true
 biomeBlendRadius:7
 chunkSectionFadeInTime:0.0
@@ -91,6 +91,7 @@ attackIndicator:1
 tutorialStep:none
 mouseWheelSensitivity:1.0
 allowCursorChanges:false
+quitShortcuts:false
 glDebugVerbosity:1
 skipMultiplayerWarning:true
 hideMatchedNames:false
