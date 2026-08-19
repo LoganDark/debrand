@@ -1,4 +1,4 @@
-version:5010
+version:5011
 ao:true
 biomeBlendRadius:7
 chunkSectionFadeInTime:0.0
@@ -92,6 +92,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 allowCursorChanges:false
 quitShortcuts:false
+ctrlClickEmulatesRightClick:false
 glDebugVerbosity:1
 skipMultiplayerWarning:true
 hideMatchedNames:false
@@ -107,7 +108,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:10
-startedCleanly:true
+startedCleanly:false
 musicToast:"pause"
 musicFrequency:"DEFAULT"
 key_key.attack:key.mouse.left
