@@ -1,4 +1,4 @@
-version:5011
+version:5015
 ao:true
 biomeBlendRadius:7
 chunkSectionFadeInTime:0.0
@@ -13,7 +13,7 @@ fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
-preferredGraphicsBackend:"default"
+preferredGraphicsBackend:"opengl"
 graphicsPreset:"custom"
 prioritizeChunkUpdates:2
 fullscreen:false
@@ -108,7 +108,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:10
-startedCleanly:false
+startedCleanly:true
 musicToast:"pause"
 musicFrequency:"DEFAULT"
 key_key.attack:key.mouse.left
