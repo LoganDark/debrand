@@ -1,4 +1,4 @@
-version:5015
+version:5017
 ao:true
 biomeBlendRadius:7
 chunkSectionFadeInTime:0.0
@@ -18,6 +18,7 @@ graphicsPreset:"custom"
 prioritizeChunkUpdates:2
 fullscreen:false
 exclusiveFullscreen:false
+macFullscreenMenuVisibility:true
 gamma:1.0
 guiScale:4
 debugGuiScale:-1
