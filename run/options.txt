@@ -1,4 +1,4 @@
-version:5124
+version:5125
 ao:true
 biomeBlendRadius:7
 chunkSectionFadeInTime:0.0
@@ -14,6 +14,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 preferredGraphicsBackend:"vulkan"
+preferDXGIPresent:false
 graphicsPreset:"custom"
 prioritizeChunkUpdates:2
 fullscreen:false
